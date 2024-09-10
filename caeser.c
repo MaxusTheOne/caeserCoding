@@ -6,6 +6,7 @@
 
 int main()
 {
+    setlocale(LC_ALL, "");
     if (!setlocale(LC_ALL, "da_DK.utf8"))
     {
         wprintf(L"Locale not set\n");
